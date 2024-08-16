@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/calendara/",
   title: "Calendara",
   description: "A customizable and versatile calendar library for dynamic date handling.",
   locales: {
